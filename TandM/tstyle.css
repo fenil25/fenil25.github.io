@@ -1,0 +1,42 @@
+body,figure{
+	padding: 0px;
+	margin: 0px;
+}
+
+figure{
+	position: relative;
+	cursor: pointer;
+	display: block;
+}
+
+img{
+	opacity: 0;
+}
+
+h1{
+	position: absolute;
+	left: 450px;
+	top: 500px;
+	text-align: center;
+	color: white;
+	background-color: rgba(1,1,1,0.9);
+}
+
+#ky{
+	font-size: 20px;
+	width: 900px;
+	text-align: center;
+	margin: auto;
+	background-color: #E0FFFF;
+
+}
+
+td{
+	text-align: center;
+	background-color: #FDE;
+}
+
+th{
+	font-weight: bold;
+	background-color: #FED;
+}

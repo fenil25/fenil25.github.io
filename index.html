@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+	<head> 
+		<title> My First Website </title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css"/>
+
+		<script type="text/javascript">
+
+			function valid(){
+				var x= document.getElementById("NameSha").value;
+				alert("Are you sure, "+x+"?");
+				return true;
+			}
+			function valie() {
+				var x= document.getElementById("NameSha").value;
+				if(x=="")
+					{confirm("WARNING! Name has not been entered.");
+					 return false;}
+
+				else{
+					valid();
+				}
+			}
+
+		</script> 
+	</head>
+
+	<body>
+	<div class="divi">
+		<h1><b>Welcome to</b> <br/><b>Website of</b></h1>
+		<h1 id="xyz">FENIL DOSHI</h1>
+
+		<h1 id="myself" align="center"></br>Things I Love :</h1>
+		<p align="center" id="tp">Click to know more about them</p>
+		<ul>
+			<li> <a href="https://www.w3schools.com/" title="Takes you to official W3Schools.Com website">Web Development</a></li>
+			<li> <a href="Books/book.html">Reading Books</a></li>
+			<li> <a href="https://www.chess.com/learn-how-to-play-chess" title="Takes you to official CHESS.com Website">Playing Chess</a></li></br></br>
+			<li> <a href="Anime/anime.html">Watching Anime</a></li>
+			<li> <a href="TandM/TV.html">Watching TV Series & Movies</a></li>
+		</ul>
+
+		<h2 align="center">Qualifications: <a href="FENIL CV.rtf">Download CV?</a></h2>
+
+		<hr></hr>
+		<div class="div1">
+		<h3><big><b>MY FAVOURITE QUOTES</b></big></h3>
+		<blockquote>
+			<p><span>History is always written by the winners. When two cultures clash, the loser is obliterated, and the winner writes the history books-books which glorify their own cause and disparage the conquered foe. As Napoleon once said, 'What is history, but a fable agreed upon?</span><br/>― Dan Brown, (The Da Vinci Code) </p>
+
+			<p><span>If you are born poor its not your mistake, But if you die poor its your mistake.</span></br>― Bill Gates, (Founder of Microsoft)</p>
+
+			<p><span>Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow’.</span></br>— Mary Anne Radmacher</p>
+
+			<p><span>What lies behind us and what lies before us are tiny matters compared to what lies within us.</span></br> — Ralph Waldo Emerson</p>
+		</blockquote>
+		</div>
+
+		<hr></hr>
+
+		<h1> WANNA KNOW SOME COOL FACTS? </h1>
+		<p>(Click and Hold over the FACT-CARD to see the fact.)</p>
+		</br>
+		<ul id="king">
+			<li class="paki">
+				<div class="front">SPACE</div>
+				<div class="back">
+					<img src="https://i.pinimg.com/736x/76/67/aa/7667aa6789adfccc468a07e847fce664--cool-science-science-facts.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">IMPORTANT DAYS</div>
+				<div class="back">
+					<img src="http://www.bforbel.com/wp-content/uploads/2014/11/tumblr_nehws86gZC1roqv59o1_500.png" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">GRAMMAR</div>
+				<div class="back">
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/e7/c3/87/e7c387807f1e88643ff0d136d5a05225.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+						<li class="paki">
+				<div class="front">PHYSICS</div>
+				<div class="back">
+					<img src="https://i.pinimg.com/736x/f4/2c/d5/f42cd5e619060b3f0febac60a088b25f--sugar-cubes-empty-spaces.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">HUMAN MIND</div>
+				<div class="back">
+					<img src="http://s3.favim.com/orig/47/cool-random-fact-scary-Favim.com-438085.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">ANIMAL KINGDOM</div>
+				<div class="back">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVU-e2nR6OlXP9zNZZ6tDR4eseN2e11QsFcs81GONcvOTvLjSW" height="250px" width="250px" />
+				</div>
+			</li>
+						<li class="paki">
+				<div class="front">PSYCHOLOGY</div>
+				<div class="back">
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/25/ee/9f/25ee9fa304a44fe432ec5c5e18914c44.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">RELATIONSHIPS</div>
+				<div class="back">
+					<img src="http://www.india.com/wp-content/uploads/2015/12/511.jpg" height="250px" width="250px" />
+				</div>
+			</li>
+
+			<li class="paki">
+				<div class="front">HUMAN BIOLOGY</div>
+				<div class="back">
+					<img src="https://i.pinimg.com/736x/21/e1/74/21e17463a7cbca94a6d303beba428c30--random-facts-fun-facts.jpg" height="250spx" width="250px" />
+				</div>
+			</li>
+		</ul>
+
+
+		<hr id="abcde"/>
+		<h2 id="pk">Kindly input information about yourself</h2>
+
+		<form action="About/about.html" method="get" onsubmit="valie()" id="bhale">
+
+			<label for="Name">Enter your Name: </label>
+			<input id="NameSha" type="text" name="name"></input>
+			<br/>
+			<label for="comments">Enter Feedback: (max characters 500)</label>
+			<textarea id="comments" name="comments" maxlength="500"></textarea>
+			<br/>
+			<label for="css">Do You Like my page?</label>
+			<input type="radio" name="css" id="css">Yes</input>
+			<br/>
+			<input type="radio" name="css" id="css">No</input>
+			<label for="dropdown">Which is your favourite programming language?</label>
+			<select id="dropdown" name="dropdown">
+				<option value="language">HTML</option>
+				<option value="language">CSS</option>
+				<option value="language">JavaScript</option>
+				<option value="language">Python</option>
+				<option value="language">C</option>
+				<option value="language">C++</option>
+				<option value="language">Django</option>
+				<option value="language">PHP</option>
+				<option value="language">Java</option>
+			</select>
+			</br>
+			</br>
+			<label for="file">Upload a document about yourself: </label>
+			<input type="file" name="file" id="file"></input>
+			</br>
+			</br>
+			<input type="submit" name="Submission" value="Proceed" />
+		</form>
+	</div>
+
+
+	<aside>
+		<h><b><big><big> CONTACT US </big></big></b></h>
+		<p>Mobile number: <ins>9735275295429</ins></p>
+		<p>Email ID: <ins>fenildanbrown@gmail.com</ins></p>
+		<p>Address: Sorry, Can't disclose that.</p>
+	
+
+	<p> Available with same name on all other social paltforms </p>
+	<img src="images/images.jpg" alt="logos" class="bs" />
+	<br></br>
+	<hr></hr>
+	<br/>
+	<h>TIP OF THE DAY</h><br/>
+	<img src="images/suit-up.png" alt="barney stinson suit up" class="bs" />
+	<p id="byes"> CopyRights reserved @FenilDoshi.com </p>
+
+	</aside>
+
+	</body>
+
+</html>
+
