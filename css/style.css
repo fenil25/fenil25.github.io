@@ -82,12 +82,13 @@ div[class="div1"] p{
 	border-top-color: chocolate;
 	border-left-color: chocolate;
 	text-align: center;
+
 }
 
 
 div{
 	text-align: center;
-width: 800px;
+width: 76%;
 margin: auto;
 margin-bottom: 50px;
 
@@ -105,7 +106,7 @@ aside{
 	background-color: bisque;
 	float: left;
 	width: 24%;
-	height: 2550px;
+	height: 100%;
 }
 
 .bs{
