@@ -1,0 +1,163 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+</head>
+<body>
+
+	<style type="text/css">
+		@keyframes zoominoutsinglefeatured {
+		    0% {
+		        transform: scale(1.3,1.3);
+		    }
+		    50% {
+		        transform: scale(1.5, 1.5);
+		    }
+		    100% {
+		        transform: scale(1.3,1.3);
+		    }
+		}
+
+		.cardcontainer div {
+			animation: zoominoutsinglefeatured 1s infinite;
+		}
+
+		.hrt{
+			height: 100%;
+			width: 100%;
+			background-image: url('heart.jpg');
+			background-size: 370px;
+			background-repeat: no-repeat;
+			margin: 270px 110px;
+			text-align: center;
+			font-size: 28px;
+			padding: 80px 0px;
+			padding-right: 150px;
+		}
+		.menagerie2 { 
+			animation-name: menagerie; 				
+			animation-duration: 2.5s;        			
+			animation-iteration-count:infinite;  
+			animation-direction:alternate; //let's alternate back and forth!
+			position:absolute;	
+			} 
+		@keyframes menagerie2 { 
+			0% {opacity: 0; background: #fff; left:0;} 
+			50% {opacity: 1; background:#000;} 
+			100% {transform:rotate(0.5turn); left:80%; background:#ff0;} 
+			} 
+	</style>
+
+<div class="flipbook-viewport" style="height: 100vh">
+	<div class="container" style="height: 100vh">
+		<div class="flipbook" style="height: 100vh">
+			<div style="background-color: #000000; text-align: center">
+				<img src="srk.jpg" height="100%" width="90%" >
+			</div>
+			<div style="background-color: #000; text-align: center; 
+				color: pink; font-size: 26px">
+				<img src="ankur.jpg" height="60%" width="80%" style="border-radius: 10%; margin-top: 50px;">
+				<h2>But, I definitely love you more than him.</h2>
+			</div>
+			<div style="background-color: #BF0000; text-align: center">
+				<img src="kajal.jpg" height="300px" style="margin: 30px 80px; border-radius: 50%">
+				<h1 style="font-size: 60px; color: #CCC">Happy <img src="rose.png" height="50px" width="50px">
+				Valentine's Day</h1>
+			</div>
+			<div style="margin: 0px; padding: 0px;">
+				<div style="background-image: url('lb.jpg'); background-size: 461px 600px; color: white; height: inherit">
+				<h1 style="font-size: 52px; color: #111E6C; margin: 0px; padding: 20px;">
+				The more time we spend together and the more I get to know you, the deeper and deeper I fall in love with you. I can't imagine my life without you. </h1>
+				</div>
+			</div>
+			<div>
+				<div class="cardcontainer" style="height: inherit; width: inherit; margin: auto;">
+					<div class="hrt"></div>
+				</div>
+			</div>
+
+			<div style="margin: 0px; padding: 0px;">
+				<div style="background-image: url('teddy.jpg'); background-size: 461px 600px; color: white; height: inherit">
+				</div>
+			</div>
+			<div style="margin: 0px; padding: 0px;">
+				<div style="background-image: url('loveb.jpg'); background-size: 461px 600px; color: white; height: inherit; text-align: center">
+				</div>
+			</div>
+			<div style="background-color: #000; text-align: center; 
+				color: pink; font-size: 26px">
+				<img src="collage.jpg" height="80%" width="80%" style="border-radius: 10%; margin-top: 50px;">
+			</div>
+			<div style="background-color: #000; text-align: center; 
+				color: pink; font-size: 20px">
+				<h2><span style="font-size: 36px; color: red">I love you more than </p>
+					<span style="color: blue">Rahul</span> loves <span style="color: yellow">Anjali</span><br/>
+					<span style="color: blue">Naitik</span> loves <span style="color: yellow">Akshara</span><br/>
+				 	<span style="color: blue">Raj</span> loves <span style="color: yellow">Meera</span><br/>
+					<span style="color: blue">Naruto</span> loves <span style="color: yellow">Hinata</span><br/>
+					<span style="color: blue">Raman</span> loves <span style="color: yellow">Ishita</span><br/>
+					<span style="color: blue">Chandler</span> loves <span style="color: yellow">Monica</span><br/>
+					<span style="color: blue">Minato</span> loves <span style="color: yellow">Kushina</span><br/>
+					<span style="color: blue">Armaan</span> loves <span style="color: yellow">Ridhima</span><br/>
+					
+					<p style="font-size: 36px; color: red">I love you more than anyone else in the world.</p>
+				</h2>
+			</div>
+			<div style="background-color: black; text-align: center">
+				<img src="p5.jpg" height="100%" width="90%">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Width
+
+			width:922,
+			
+			// Height
+
+			height:600,
+
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../../lib/turn.js'],
+	nope: ['../../lib/turn.html4.min.js'],
+	both: ['css/basic.css'],
+	complete: loadApp
+});
+
+</script>
+
+</body>
+</html>
