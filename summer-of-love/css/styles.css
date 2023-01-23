@@ -1,0 +1,350 @@
+﻿@import url('reset.css');
+body {
+	background-image: url('../images/bg.jpg');
+}
+img{
+	border: 1px solid #3c573a;
+}
+h4 {
+	margin-bottom:12px;
+}
+#page-wrap a:hover,#footer a:hover {
+	color: #1a2518;
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+#header {
+	position: relative;
+	height: 198px;
+	background-image: url('../images/bg-gradient.png');
+	background-repeat: repeat-x;
+}
+#logo {
+	background-image: url('../images/bg-clouds-rays.png');
+	position: relative;
+	height: 681px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#logo h1 {
+	text-indent: -9999px;
+	background-image: url('../images/logo.png');
+	position: relative;
+	width: 287px;
+	height: 169px;
+	top: 28px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#page-wrap {
+	width: 692px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+#left-col {
+	position: relative;
+	width: 182px;
+	float: left;
+	color: #3c573a;
+}
+#nav-bar {
+	position: relative;
+	width: 159px;
+	margin-top: 41px;
+	margin-bottom: 35px;
+}
+#nav-bar li {
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom: 7px;
+	height: 49px;
+}
+#nav-bar li a {
+	position: relative;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: relative;
+	display: block;
+	float: right;
+	padding-top: 15px;
+	text-align: center;
+	font-family: georgia, arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #3c573a;
+	text-decoration: none;
+}
+#nav-bar li a:hover{
+	background-position: top;
+	text-decoration: none;
+}
+#nav-bar li.current a{
+	background-position: top;
+}
+#nav-bar li a.home {
+	background-image: url('../images/buttom-home.jpg');
+	width: 146px;
+}
+#nav-bar li a.line {
+	background-image: url('../images/button-lineup.jpg');
+	width: 114px;
+}
+#nav-bar li a.visitor {
+	background-image: url('../images/button-visitors.jpg');
+	width: 159px;
+}
+#nav-bar li a.buy {
+	background-image: url('../images/button-buy.jpg');
+	width: 153px;
+}
+#nav-bar li a.archive {
+	background-image: url('../images/button-archive.jpg');
+	width: 119px;
+}
+#social-stuff{
+	width: 159px;
+	margin-bottom: 35px;
+}
+#social-stuff h4 {
+	font-family: georgia;
+	font-size: 18px;
+	text-align: right;
+}
+
+#social-stuff ul {
+	position: relative;
+	height: 37px;
+}
+#social-stuff ul li {
+	float: right;
+	margin-left: 10px;
+}
+#social-stuff ul li a {
+	display: block;
+	width: 36px;
+	height: 37px;
+	position: relative;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+#social-stuff li a.facebook {
+	background-image: url('../images/facebook.jpg');
+}
+#social-stuff li a.my-space {
+	background-image: url('../images/my-space.jpg');
+}
+#social-stuff li a.twitter {
+	background-image: url('../images/twitter.jpg');
+}
+.countdown {
+	width: 159px;
+	text-align: right;
+}
+.countdown h4 {
+	font-family: georgia;
+	font-size: 18px;
+}
+.countdown p {
+	font-family: georgia;
+	font-size: 11px;
+}
+.countdown a {
+	color: #3c573a;
+}
+#right-col {
+	position: relative;
+	width: 510px;
+	float: right;
+	color: #3c573a;
+}
+#featured {
+	background-image: url('../images/featured-box.png');
+	width: 489px;
+	height: 188px;
+	position: relative;
+	padding-top: 62px;
+	padding-bottom: 30px;
+	padding-left: 21px;
+}
+#featured-data {
+	position: relative;
+	width: 230px;
+	float: left;
+	color: #3d583a;
+	font-family: georgia;
+}
+#featured-data h3 {
+	font-size: 24px;
+	position: relative;
+	margin-bottom: 10px;
+}
+#featured-data p {
+	font-size: 12px;
+	line-height: 18px;
+	position: relative;
+	margin-bottom: 10px;
+}
+#featured-data a.read-more {
+	font-size: 14px;
+	font-weight: bold;
+	color: #3d583a;
+}
+#featured-data a.read-more:hover {
+	color: #1a2518;
+}
+#blog-area{
+	width: 494px;
+	position: relative;
+	font-family: georgia, arial, Helvetica, sans-serif;
+	padding-left: 16px;
+}
+#blog-area h3 {
+	font-size: 24px;
+	float: left;
+	position: relative;
+}
+#blog-header {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #74946d;
+	margin-bottom: 13px;
+}
+a#subscribe-rss {
+	background-image:url(../images/rss.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	color:#2E586D;
+	float:right;
+	font-size:11px;
+	height:15px;
+	margin-right:7px;
+	padding-left:19px;
+	position:relative;
+	top:10px;
+}
+.blog-post{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #97b48d;
+	padding-bottom: 11px;
+	margin-bottom: 18px;
+}
+.blog-post a img {
+	position: relative;
+	float: left;
+}
+.post-data {
+	width: 352px;
+	position: relative;
+	float: right;
+}
+.post-data h4 a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #30462f;
+	text-decoration: none;
+}
+.post-date {
+	font-size: 12px;
+	font-style: italic;
+	position: relative;
+	margin-left: 2px;
+}
+.post-data p {
+	font-size: 12px;
+	line-height: 18px;
+}
+.post-data h4 {
+	margin-top:12px;
+	position:relative;
+}
+#footer {
+	position: relative;
+	height: 74px;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #6d9d67;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+}
+#footer-data {
+	width: 670px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	color: #52450a;
+	padding-left: 22px;
+}
+#footer-data p {
+	position: relative;
+	font-family: georgia;
+	font-size: 11px;
+}
+#footer-data p a{
+	color: #52450a;
+	text-decoration: none;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+/*---- Blog Single Post Styles Start Here ----*/
+#single-post{
+	font-family: georgia, arial, Helvetica, sans-serif;
+}
+#post-body {
+	position: relative;
+	padding-left: 16px;
+	background-image: url('../images/blog-single-bg.png');
+	background-repeat: repeat-y;
+	padding-left: 23px;
+	padding-right: 25px;
+	width: 460px;
+}
+#post-intro {
+	background-image: url('../images/blog-single-bg-top.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	height: 229px;
+	padding-left: 23px;
+	width: 460px;
+	padding-top: 28px;
+	padding-right: 25px;
+}
+#post-intro h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+#post-body h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+#post-body h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+#single-post p {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 18px;
+}
+.data {
+	position: relative;
+	top: -68px;
+}
+#single-post img {
+	position: relative;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+	margin-top: 19px;
+}

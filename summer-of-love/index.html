@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("fd2.jpeg")}
+.bgimg2 {background-image: url("bg.jpeg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-red w3-center">
+    <h1 class="w3-jumbo"><b>Dhuri...</b></h1>
+    <h1><b>Will you come on a date with me? Will you be my valentine?</b></h2>
+    <h1><b>02.14.2023</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Fenil & Dhuri</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Valentine Date</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Answer</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Fenil & Dhuri</b></h1>
+    <img class="w3-round w3-grayscale-min" src="./fd.jpeg" style="width:100%;margin:32px 0">
+    <p><i>We have been together for almost a year now. From spending nights at 500A to studying at Vidyavihar to having an awesome summer in California, we have come a long way.
+      It does not seem like that it was just merely 314 days. It seems like an eternity. I have spent some of the best days of my life with you. Can you believe that? 
+      Like out of the 8800 days, I have lived, I have spent the best days out of those 8800 days with you. Assuming a uniform distribution, the probability is just 3.5%. 
+      I mean against these whopping odds, you have showed me the craziest and the most wonderful moments of my life. 
+    </i>
+    </p>
+    <p>I hope we can relive our best days of our life - watching series on projector, cooking food, studying together, working together, playing together, just being together.
+      I love you to the moon and back. 
+    </p>
+    <p>
+      Trying out new cuisines and cocktails in San Francisco, Mountain View, Amherst, to New York, we have travelled the US together. Here is to more and more trips. 
+      From our first date to Johnnys tavern to our last day to Fresh side (till now), I have had the best meals with the best company that I could have asked for. 
+      Just seeing you sitting across the table smiling makes my day, month and year. I can still picture everything, all of our dates, Johnnys tavern, Taste of Thai, 
+      Crazy noodles, sick date at Miss Saigon, expensive date at Tropisueno, North India on the 2nd street, Dhamaka at New York, bad American place after ourbroadway show and many more.
+      At the time I did not realize, but looking back, every bit, every millisecond spent with you, looking at you, being with you has given me infinite happiness. 
+      Not just the planned dates, but even all the unplanned ones, in UMass, at MV, at SF, calling you in college if I am free, studying and doing assignments together
+      at Student Union, 24-hour dates and what not. I am going to miss every bit of it. If you even had 1% of the fun that I had, I hope you say yes to my proposition to go on a date with me on 14th February 2023. 
+    </p>
+    <p>So, Will you?</p>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Date Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE DATE</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="club.jpeg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Date - 14th February 2023 evening</p>
+        <p>Post Date - Clubbing</p>
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>South Bay, California</p>
+        <p>Options - Only vegetarian.</p>
+        <p>Non-vegetarian? Gandu, gandu</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>HOPE YOU SAY YES!</h1>
+  <p class="w3-large">Kindly Respond At the Earliest</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">ANSWER</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">WILL YOU COME?</h1>
+      <p>I really hope you say yes.</p>
+      <form>
+      </form>
+      <p><i>Lovingly, Fenil</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">YES YES YES</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Pottie</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.linkedin.com/in/fenildoshi25/" title="Fenil.CSS" target="_blank" class="w3-hover-text-green">your amazing boyfriend</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
